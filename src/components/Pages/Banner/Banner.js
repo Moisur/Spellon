@@ -3,6 +3,7 @@ import { TbArrowUpRight } from "react-icons/tb";
 import { BsArrowDown } from "react-icons/bs";
 import banner1 from '../../Images/Banner-1.png'
 import banner2 from '../../Images/Banner-2.png'
+import project from '../../Images/project-idea.gif'
 const Banner = () => {
     return (
         <div className='w-full h-100 md:h-[91vh] relative px-10'>
@@ -26,7 +27,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-
+            <img className='absolute top-0 right-0 bottom-0 left-0 m-auto' src={project} alt="Images" />
         </div>
     );
 };
