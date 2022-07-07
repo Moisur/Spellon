@@ -3,7 +3,7 @@ import { TbEqual } from "react-icons/tb";
 import Logo from '../../Images/logo.svg'
 const Navbar = () => {
     return (
-        <div className='flex flex-col-reverse  justify-center md:flex-row md:justify-between items-center  py-5'>
+        <div className='flex flex-col-reverse  justify-center md:flex-row md:justify-between items-center  py-5 px-10'>
             <div>
                 <img src={Logo} alt="" />
             </div>
