@@ -17,20 +17,20 @@ const Digital = () => {
 
     return (
         <div className='p-20'>
-            <h1 className='text-5xl font-bold mb-3 '>Our Digital Expertise</h1>
+            <h1 className='text-5xl font-bold mb-3 ' data-aos="fade-right">Our Digital Expertise</h1>
             <hr />
             <div>
                 <div>
                     {/* ==================================== Strategy ===============================*/}
-                    <div className={`${Strategy ? 'flex justify-between items-center' : ''} `} onMouseEnter={() => setStrategy(!Strategy)} onMouseLeave={() => setStrategy(!Strategy)}>
+                    <div className={`${Strategy ? 'flex justify-between items-center' : ''}`} onMouseEnter={() => setStrategy(!Strategy)} onMouseLeave={() => setStrategy(!Strategy)}>
                         <div className={`${Strategy ? '' : 'flex justify-between items-center'} `}>
-                            <h1 className={`${Strategy ? 'text-2xl' : 'text-9xl'}`}>Strategy</h1>
+                            <h1 className={`${Strategy ? 'text-2xl' : 'text-8xl'}`}>Strategy</h1>
                             <h1>Brand Strategy, Product Strategy, Research & <br />
                                 Analysis, Service Design, Content Strategy</h1>
                         </div>
                         {
                             Strategy && <div>
-                                <button className='flex justify-center items-center gap-3 text-2xl font-medium px-8 py-3 bg-slate-700 uppercase rounded-sm'>view our works <span><TbArrowUpRight /></span> </button>
+                                <button className=' flex justify-center items-center gap-3 text-2xl font-medium px-8 py-3 bg-slate-700 text-white uppercase rounded-sm hover:bg-green-400 hover:text-black'>view our works <span><TbArrowUpRight /></span> </button>
                             </div>
                         }
                         {

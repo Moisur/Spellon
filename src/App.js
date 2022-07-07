@@ -1,8 +1,14 @@
 import Home from "./components/Pages/Home/Home";
 import AnimatedCursor from "react-animated-cursor"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init();
+  })
   return (
-    <div>
+    <div className="font-sans">
       <Home></Home>
       <AnimatedCursor
         innerSize={15}
