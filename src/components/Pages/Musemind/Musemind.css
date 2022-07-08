@@ -1,0 +1,7 @@
+.Images {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../Images/Musemind-Team.webp");
+    background-position: cover;
+    background-size: cover;
+}

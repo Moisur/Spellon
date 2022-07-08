@@ -7,6 +7,8 @@ import Footer from '../../Shared/Footer/Footer';
 import HiSection from '../HiSection/HiSection';
 import StudiesFeatured from '../Studies Featured/StudiesFeatured ';
 import Trusted from '../Trusted/Trusted';
+import Musemind from '../Musemind/Musemind';
+import Carouselbox from '../Carouselbox/Carouselbox';
 const Home = () => {
     return (
         <div>
@@ -22,6 +24,8 @@ const Home = () => {
             </div>
             <StudiesFeatured></StudiesFeatured>
             <Trusted></Trusted>
+            <Musemind></Musemind>
+            <Carouselbox></Carouselbox>
             <HiSection></HiSection>
             <Footer></Footer>
         </div>
