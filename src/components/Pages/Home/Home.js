@@ -17,7 +17,7 @@ const Home = () => {
             <div className='bg-white text-black'>
                 <Apart></Apart>
             </div>
-            <div className='bg-yellow-400 text-black'>
+            <div className='bg-[#feed01] text-black'>
                 <Digital></Digital>
             </div>
             <StudiesFeatured></StudiesFeatured>
