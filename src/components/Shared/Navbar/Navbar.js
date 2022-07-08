@@ -11,7 +11,7 @@ const Navbar = () => {
                 < TbEqual className='text-5xl' />
             </div>
             <div className='hidden md:block order-3'>
-                <li><span>work with us</span></li>
+                <marquee className='font-bold text-xl'>work with us</marquee>
             </div>
         </div>
     );
